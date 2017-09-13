@@ -1,0 +1,54 @@
+* {}
+div {}
+#id {}
+.cls {}
+
+[attr] {}
+[attr='val'] {}
+[attr^='val'] {}
+[attr|='val'] {}
+[attr*='val'] {}
+[attr~='val'] {}
+[attr$='val'] {}
+
+h1, h2 {}
+
+div p {}
+div > p {}
+
+div ~ p {}
+div + p {}
+
+:not(.cls) {}
+
+:empty {}
+
+:focus {}
+:hover {}
+
+:checked {}
+:disabled {}
+:enabled {}
+
+:first-child {}
+:first-of-type {}
+
+:last-child {}
+:last-of-type {}
+
+:only-child {}
+:only-of-type {}
+
+:nth-child(n) {}
+:nth-of-type(n) {}
+
+:nth-last-child(n) {}
+:nth-last-of-type(n) {}
+
+::before {}
+::after {}
+
+::first-letter {}
+::first-line {}
+
+::selection {}
