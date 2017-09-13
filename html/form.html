@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8"/>
+    <title>form</title>
+</head>
+
+<body>
+
+<form>
+    <fieldset>
+        <legend>legend</legend>
+
+        <div>
+            <label for="text">text:</label>
+            <input autofocus="" id="text" name="text" pattern="[0-9]+" placeholder="text" required="" title="text"/>
+        </div>
+
+        <div>
+            <label for="password">password:</label>
+            <input id="password" name="password" placeholder="password" type="password"/>
+        </div>
+
+        <div>
+            <label for="url">url:</label>
+            <input autocomplete="off" id="url" name="url" placeholder="url" type="url"/>
+        </div>
+
+        <div>
+            <label for="email">email:</label>
+            <input id="email" name="email" placeholder="email" type="email"/>
+        </div>
+
+        <div>
+            <label for="tel">tel:</label>
+            <input id="tel" name="tel" placeholder="tel" readonly="" type="tel"/>
+        </div>
+
+        <div>
+            <label for="textarea">textarea:</label>
+            <textarea disabled="" id="textarea" name="textarea" spellcheck="false">textarea</textarea>
+        </div>
+
+        <input name="hidden" type="hidden"/>
+
+        <input type="submit" value="submit"/>
+        <input type="reset" value="reset"/>
+        <input type="button" value="button"/>
+
+    </fieldset>
+</form>
+
+<form action="/">
+    <fieldset>
+        <legend>legend</legend>
+
+        <div>
+            <label for="checkbox">checkbox:</label>
+            <input checked="" id="checkbox" name="checkbox" type="checkbox"/>
+        </div>
+
+        <div>
+            <label for="radio">radio:</label>
+            <input id="radio" name="radio" type="radio" value="1"/>
+
+            <label for="radio2">radio2:</label>
+            <input checked="" id="radio2" name="radio" type="radio" value="2"/>
+        </div>
+
+        <button>submit</button>
+        <button type="reset">reset</button>
+        <button type="button">button</button>
+
+    </fieldset>
+</form>
+
+<form target="_blank">
+    <fieldset>
+        <legend>legend</legend>
+
+        <div>
+            <label for="mcheck">mcheck:</label>
+            <input id="mcheck" name="mcheck[m1]" type="checkbox"/>
+        </div>
+
+        <div>
+            <label for="mcheck2">mcheck2:</label>
+            <input id="mcheck2" name="mcheck[m2]" type="checkbox"/>
+        </div>
+
+        <div>
+            <label for="mcheck3">mcheck3:</label>
+            <input id="mcheck3" name="mcheck[m3]" type="checkbox"/>
+        </div>
+
+        <button>submit</button>
+
+    </fieldset>
+</form>
+
+<form method="post">
+    <fieldset>
+        <legend>legend</legend>
+
+        <div>
+            <label for="select">select:</label>
+            <select id="select" name="select">
+                <option>1</option>
+                <option selected="">2</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="mselect">mselect:</label>
+            <select id="mselect" multiple="" name="mselect">
+                <optgroup label="1">
+                    <option>1</option>
+                    <option>2</option>
+                </optgroup>
+                <optgroup label="2">
+                    <option>3</option>
+                    <option>4</option>
+                </optgroup>
+            </select>
+        </div>
+
+        <button>submit</button>
+
+    </fieldset>
+</form>
+
+<form>
+    <fieldset>
+        <legend>legend</legend>
+
+        <div>
+            <label for="number">number:</label>
+            <input id="number" max="20" min="5" name="number" step="5" type="number" value="10"/>
+        </div>
+
+        <div>
+            <label for="range">range:</label>
+            <input id="range" max="20" min="5" name="range" step="5" type="range" value="10"/>
+        </div>
+
+        <button>submit</button>
+
+    </fieldset>
+</form>
+
+<form enctype="multipart/form-data" method="post">
+    <fieldset>
+        <legend>legend</legend>
+
+        <input accept="image/*" name="file" type="file"/>
+        <input accept=".jpg, .jpeg" multiple="" name="multiple" type="file"/>
+
+        <button>submit</button>
+
+    </fieldset>
+</form>
+
+</body>
+</html>
