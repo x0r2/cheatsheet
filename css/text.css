@@ -55,3 +55,7 @@
 .list {
     list-style: inside square;
 }
+
+.background {
+    background-color: red;
+}
