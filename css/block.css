@@ -11,6 +11,13 @@
     box-sizing: border-box;
 }
 
+.block {
+    overflow: visible;
+    overflow: scroll;
+    overflow: auto;
+    overflow: hidden;
+}
+
 .radius {
     border-radius: 5px;
     border-radius: 5px 10px;
