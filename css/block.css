@@ -4,3 +4,16 @@
     display: inline-block;
     display: block;
 }
+
+.radius {
+    border-radius: 5px;
+    border-radius: 5px 10px;
+    border-radius: 20px/10px;
+}
+
+.radius {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
