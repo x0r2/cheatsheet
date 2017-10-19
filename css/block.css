@@ -17,3 +17,17 @@
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 }
+
+.shadow {
+    box-shadow: 1px 1px 1px red;
+    box-shadow: 1px 1px 1px 2px red;
+}
+
+.shadow {
+    box-shadow: inset 1px 1px 1px red;
+    box-shadow: inset 1px 1px 1px 2px red;
+}
+
+.shadow {
+    box-shadow: 1px 1px 1px red, 1px 1px 1px blue;
+}
