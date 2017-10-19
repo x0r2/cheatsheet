@@ -5,6 +5,12 @@
     display: block;
 }
 
+.block {
+    box-sizing: content-box;
+    box-sizing: padding-box;
+    box-sizing: border-box;
+}
+
 .radius {
     border-radius: 5px;
     border-radius: 5px 10px;
