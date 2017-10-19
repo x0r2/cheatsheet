@@ -18,6 +18,13 @@
     overflow: hidden;
 }
 
+.block {
+    max-height: 10px;
+    max-width: 10px;
+    min-height: 10px;
+    min-width: 10px;
+}
+
 .radius {
     border-radius: 5px;
     border-radius: 5px 10px;
