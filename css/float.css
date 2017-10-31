@@ -1,0 +1,11 @@
+.float {
+    float: left;
+    float: right;
+    float: none;
+}
+
+.clear {
+    clear: left;
+    clear: right;
+    clear: both;
+}
